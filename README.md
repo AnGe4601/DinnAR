@@ -21,3 +21,6 @@ __Deviations:__
 - Planned to enable camera and location permissions, but have not reached that stage of development yet. This will be completed for the beta release. 
 - Planned to include actual menus and coupons, but did not have the sample data. Will be populated for beta release
 - Planned to use scroll views to scroll through recommendations. Will implement during beta release once we have more data to work with
+- Planned to fully develop the map and AR feature at the next release
+- Adapted new UI Design provided by the designer
+
