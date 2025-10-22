@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		407323F32EA844F100BF0885 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 407323F22EA844F100BF0885 /* FirebaseAuth */; };
+		407323F52EA844F100BF0885 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 407323F42EA844F100BF0885 /* FirebaseAuthCombine-Community */; };
+		407323F72EA844F100BF0885 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 407323F62EA844F100BF0885 /* FirebaseCore */; };
+		407323F92EA844F100BF0885 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 407323F82EA844F100BF0885 /* FirebaseDatabase */; };
+		407323FB2EA844F100BF0885 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 407323FA2EA844F100BF0885 /* FirebaseFirestore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3303A8162E9EE974006C3CDE /* DinnAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinnAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +44,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407323F32EA844F100BF0885 /* FirebaseAuth in Frameworks */,
+				407323F72EA844F100BF0885 /* FirebaseCore in Frameworks */,
+				407323F92EA844F100BF0885 /* FirebaseDatabase in Frameworks */,
+				407323FB2EA844F100BF0885 /* FirebaseFirestore in Frameworks */,
+				407323F52EA844F100BF0885 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,11 @@
 			);
 			name = DinnAR;
 			packageProductDependencies = (
+				407323F22EA844F100BF0885 /* FirebaseAuth */,
+				407323F42EA844F100BF0885 /* FirebaseAuthCombine-Community */,
+				407323F62EA844F100BF0885 /* FirebaseCore */,
+				407323F82EA844F100BF0885 /* FirebaseDatabase */,
+				407323FA2EA844F100BF0885 /* FirebaseFirestore */,
 			);
 			productName = DinnAR;
 			productReference = 3303A8162E9EE974006C3CDE /* DinnAR.app */;
@@ -91,7 +109,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					3303A8152E9EE974006C3CDE = {
 						CreatedOnToolsVersion = 16.4;
@@ -107,6 +125,9 @@
 			);
 			mainGroup = 3303A80D2E9EE974006C3CDE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				407323F12EA844F100BF0885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3303A8172E9EE974006C3CDE /* Products */;
 			projectDirPath = "";
@@ -253,6 +274,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -310,6 +332,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -337,6 +360,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		407323F12EA844F100BF0885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		407323F22EA844F100BF0885 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 407323F12EA844F100BF0885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		407323F42EA844F100BF0885 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 407323F12EA844F100BF0885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		407323F62EA844F100BF0885 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 407323F12EA844F100BF0885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		407323F82EA844F100BF0885 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 407323F12EA844F100BF0885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		407323FA2EA844F100BF0885 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 407323F12EA844F100BF0885 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3303A80E2E9EE974006C3CDE /* Project object */;
 }
