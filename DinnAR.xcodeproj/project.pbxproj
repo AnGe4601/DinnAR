@@ -6,12 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		330B62C62EA4981E000080C5 /* DMSerifText-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330B62C42EA4981E000080C5 /* DMSerifText-Italic.ttf */; };
+		330B62C72EA4981E000080C5 /* DMSerifText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 330B62C52EA4981E000080C5 /* DMSerifText-Regular.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3303A8162E9EE974006C3CDE /* DinnAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinnAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		330B62C42EA4981E000080C5 /* DMSerifText-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifText-Italic.ttf"; sourceTree = "<group>"; };
+		330B62C52EA4981E000080C5 /* DMSerifText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSerifText-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		3303A8282E9EE976006C3CDE /* Exceptions for "DinnAR" folder in "DinnAR" target */ = {
+		330B62C32EA497F8000080C5 /* Exceptions for "DinnAR" folder in "DinnAR" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -24,7 +31,7 @@
 		3303A8182E9EE974006C3CDE /* DinnAR */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				3303A8282E9EE976006C3CDE /* Exceptions for "DinnAR" folder in "DinnAR" target */,
+				330B62C32EA497F8000080C5 /* Exceptions for "DinnAR" folder in "DinnAR" target */,
 			);
 			path = DinnAR;
 			sourceTree = "<group>";
@@ -45,6 +52,8 @@
 		3303A80D2E9EE974006C3CDE = {
 			isa = PBXGroup;
 			children = (
+				330B62C42EA4981E000080C5 /* DMSerifText-Italic.ttf */,
+				330B62C52EA4981E000080C5 /* DMSerifText-Regular.ttf */,
 				3303A8182E9EE974006C3CDE /* DinnAR */,
 				3303A8172E9EE974006C3CDE /* Products */,
 			);
@@ -122,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				330B62C62EA4981E000080C5 /* DMSerifText-Italic.ttf in Resources */,
+				330B62C72EA4981E000080C5 /* DMSerifText-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
